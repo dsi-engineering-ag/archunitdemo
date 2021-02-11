@@ -1,0 +1,5 @@
+@startuml
+[Domain] <<ch.dsi.archunitdemo.domain..>> as domain
+[Service] <<ch.dsi.archunitdemo.service..>> as service
+service --> domain
+@enduml
